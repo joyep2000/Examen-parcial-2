@@ -51,14 +51,15 @@ if (isset($_SESSION["idUsuario"])) {
                                 </tr>
                             </thead>
                             <tfoot>
-                                </tbody id='TablaEstudiantes'><tbody>
+                                </tbody id='TablaEstudiantes'>
+                                <tbody>
                         </table>
                     </div>
                 </div>
             </div>
         </main>
         <!--modales-->
-        <div class="modal fade" data-bs-backdrop= "static" data-bs-keyboard="false" id="modalEstudiantes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="modalEstudiantes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -97,6 +98,7 @@ if (isset($_SESSION["idUsuario"])) {
         <script src="./estudiantes.js"></script>
         <!--scripts-->
     </body>
+
     </html>
 
 <?php
