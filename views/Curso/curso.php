@@ -60,7 +60,7 @@ if (isset($_SESSION["idUsuario"])) {
             </div>
         </main>
         <!--modales-->
-        <div class="modal fade" data-backdrop= "static" data-keyboard="false" id="modalCurso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" data-bs-backdrop= "static" data-bs-keyboard="false" id="modalCurso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
