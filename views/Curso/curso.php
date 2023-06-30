@@ -28,7 +28,7 @@ if (isset($_SESSION["idUsuario"])) {
                         <i class="fas fa-table me-1"></i>
                         Lista de Cursos
                     </div>
-                    <button onclick class="btn btn-primary float-right" data-bs-toggle="modal" data-bs-target="#modalCursos"> Nuevo Curso</button>
+                    <button onclick class="btn btn-primary float-right" data-bs-toggle="modal" data-bs-target="#modalCurso"> Nuevo Curso</button>
                     <div class="card-body">
                         <table width="100%" cellspacing="0" class="table table-bordered table-striped table-responsive">
                             <thead>
